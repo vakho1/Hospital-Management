@@ -9,6 +9,7 @@
     'description': """Hospital management system""",
     'depends': [],
     'data': [
+        'security/ir.model.access.csv',
         'views/menu.xml',
         'views/patinet_view.xml',
     ],
