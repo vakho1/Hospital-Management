@@ -6,8 +6,8 @@ class HospitalPatient(models.Model):
     _inherit = ['mail.thread', 'mail.activity.mixin']
     _description = "Hospital Patient"
 
-    name = fields.Char(string="Name", tracking=True)
-    ref = fields.Char(string="Reference")
+    name = fields.Char(string='Name', tracking=True)
+    ref = fields.Char(string='Reference', default='Odoo')
     age = fields.Integer(string="Age", tracking=True)
-    gender = fields.Selection([('male', 'Male'), ('female', 'Female')], string="Gender", tracking=True)
+    gender = fields.Selection([('male', 'Male'), ('female', 'Female')], string="Gender", tracking=True, default='female')
     active = fields.Boolean(string="Active", default=True)
