@@ -9,7 +9,8 @@
     'description': """Hospital management system""",
     'depends': [],
     'data': [
-        'views/menu.xml'
+        'views/menu.xml',
+        'views/patinet_view.xml',
     ],
     'demo': [],
     'application': True,
