@@ -12,6 +12,7 @@
         'security/ir.model.access.csv',
         'views/menu.xml',
         'views/patinet_view.xml',
+        'views/female_patient_view.xml',
     ],
     'demo': [],
     'application': True,
