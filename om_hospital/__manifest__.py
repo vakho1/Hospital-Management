@@ -13,6 +13,7 @@
         'views/menu.xml',
         'views/patinet_view.xml',
         'views/female_patient_view.xml',
+        'views/appointment_view.xml',
     ],
     'demo': [],
     'application': True,
