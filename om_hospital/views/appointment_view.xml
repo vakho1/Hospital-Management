@@ -23,6 +23,8 @@
                         <group>
                             <field name="patient_id"/>
                             <field name="ref"/>
+                            <field name="gender"/>
+                            <field name="booking_date"/>
                         </group>
                         <group>
                             <field name="appointment_time"/>
@@ -31,14 +33,9 @@
 
                     <notebook>
                         <page string="Prescription" name="prescription"> 
-                            <group>
-                                <field name="gender"/>
-                            </group>
+                            <field name="prescription" placeholder="Emter your prescription"/>
                         </page>
                         <page string="Pharmacy" name="pharmacy">
-                            <group>
-                                <field name="booking_date"/>
-                            </group>
                         </page>
                     </notebook>
                 </sheet>
