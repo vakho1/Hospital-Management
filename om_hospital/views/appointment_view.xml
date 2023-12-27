@@ -9,6 +9,12 @@
                 <field name="patient_id"/>
                 <field name="appointment_time"/>
                 <field name="booking_date"/>
+                <field name="state" 
+                    decoration-success="state == 'done'" 
+                    decoration-info="state == 'draft'"
+                    decoration-danger="state == 'cancel'"
+                    decoration-warning="state == 'in_consultation'"
+                    widget="badge"/>
             </tree>
         </field>
     </record>
