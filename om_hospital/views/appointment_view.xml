@@ -63,7 +63,7 @@
                     <notebook>
                         <page string="Prescription" name="prescription"> 
                             <field name="prescription" placeholder="Emter your prescription"
-                            options="{'collaborative': True}"/>
+                            options="{'collaborative': True, 'resizable':true}"/>
                         </page>
                         <page string="Pharmacy" name="pharmacy">
                         </page>
