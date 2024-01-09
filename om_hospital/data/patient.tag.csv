@@ -1,0 +1,4 @@
+id,name,active
+patinet_tag_ceo,CEO,True
+patinet_tag_vvip,VVIP,False
+patinet_tag_mrs,Mrs,True

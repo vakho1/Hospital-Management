@@ -17,5 +17,5 @@
         <field name="name">MR</field>
         <field name="active" eval="False"/>
     </record>
-
+    
 </odoo>
