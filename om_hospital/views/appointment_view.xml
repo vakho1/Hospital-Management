@@ -10,7 +10,8 @@
                 <field name="ref"/>
                 <templates>
                     <div t-name="activity-box"> 
-                        <img t-name="activity_image{'hospital.patient', 'image', record.patient_id.raw_value}" t_att_title="record.patient_id.value"/> 
+                        <img t-name="activity_image{'hospital.patient', 'image', record.patient_id.raw_value}" 
+                             t_att_title="record.patient_id.value"/> 
                         <div>
                             <field name="ref" display="full"/>
                         </div>
@@ -99,7 +100,7 @@
                     <notebook>
                         <page string="Prescription" name="prescription"> 
                             <field name="prescription" placeholder="Emter your prescription"
-                            options="{'collaborative': True, 'resizable':true}"/>
+                            options="{'collaborative': true, 'resizable':true, 'codeview':true}"/>
                         </page>
                         <page string="Pharmacy" name="pharmacy">
                             <field name="pharmacy_line_ids">
